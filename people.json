@@ -1,0 +1,13 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {"type": "string"},
+            "age": {"type": "number"},
+            "hobbies": {"type": "array"},
+            "isMember": {"type": "boolean"}
+        },
+        "required": ["age", "hobbies", "isMember"]
+    }
+}
